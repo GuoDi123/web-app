@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body, html {
+  height: 100%;
+  width: 100%;
+  background: url(/static/images/w-reg-bg.png) no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden; }
+
+.reg-box {
+  padding: 0 .666667rem; }
+
+.reg-box .top {
+  margin-top: 1.333333rem;
+  width: 100%;
+  height: .666667rem;
+  position: relative; }
+
+.reg-box .top h1 {
+  font-size: .666667rem;
+  font-weight: 500;
+  color: #000;
+  float: left; }
+
+.reg-box .top a {
+  text-decoration: underline;
+  color: #699AFF;
+  font-size: .373333rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  float: right; }
+
+.reg-box .form-box {
+  padding-top: .266667rem; }
+
+.reg-box .form-box .input-item {
+  position: relative;
+  margin-top: .506667rem;
+  border-bottom: 0.01333rem solid rgba(0, 0, 0, 0.1); }
+
+.reg-box .form-box .input-item input {
+  width: 100%;
+  height: 1.066667rem;
+  padding: 0;
+  font-size: .373333rem;
+  color: #ccc;
+  text-align: start;
+  background-color: transparent;
+  float: none;
+  border: none; }
+
+.reg-box .form-box .input-item .get-code {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #699AFF;
+  font-size: .373333rem;
+  line-height: 1.066667rem;
+  cursor: pointer; }
+
+.reg-box .register-btn {
+  width: 100%;
+  line-height: 1.266667rem;
+  text-align: center;
+  font-size: .453333rem;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: .026667rem;
+  background-color: #699AFF;
+  border-radius: .64rem;
+  margin-top: 1.2rem; }
+
+.reg-box .tips {
+  color: #ccc;
+  font-size: .346667rem;
+  text-align: center;
+  margin-top: .386667rem; }
+
+.reg-box .tips a {
+  color: #699AFF;
+  text-decoration: none;
+  text-align: center; }
+
+.reg-box .bottom {
+  text-align: center;
+  margin-top: 1.6rem; }
+
+.reg-box .bottom a {
+  color: #699AFF;
+  font-size: .426667rem;
+  line-height: .533333rem;
+  text-decoration: none; }

@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body, html {
+  height: 100%;
+  width: 100%;
+  background: url(/static/images/w-login-bg.png) no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden; }
+
+.login {
+  height: 100%;
+  width: 100%; }
+
+.login-box {
+  margin-top: 1.333333rem;
+  padding: 0 .666667rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
+
+.login-title h1 {
+  width: 100%;
+  height: .666667rem;
+  font-size: .666667rem;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  margin: 0;
+  padding: 0; }
+
+.login-content {
+  width: 100%;
+  margin-top: 1.2rem; }
+
+.login-content--choose {
+  width: 100%;
+  height: 1.093333rem;
+  display: flex;
+  justify-content: space-around;
+  color: #595959;
+  font-size: .426667rem;
+  align-items: center;
+  border-bottom: .013333rem solid #ccc;
+  margin-top: .2rem; }
+
+.login-content--choose:hover {
+  color: #699AFF; }
+
+.line {
+  width: 1.4rem;
+  height: .066667rem;
+  position: absolute;
+  bottom: -2px;
+  left: 1.466667rem;
+  border-radius: 3px;
+  background-color: #699AFF; }
+
+.login-content--input {
+  width: 100%;
+  position: relative;
+  margin-top: .506667rem;
+  border-bottom: 0.01333rem solid rgba(0, 0, 0, 0.1); }
+
+.login-content--input input {
+  width: 100%;
+  height: 1.066667rem;
+  border: 0;
+  padding: 0;
+  font-size: .373333rem;
+  color: #616366;
+  text-align: start;
+  background-color: transparent; }
+
+.forget {
+  display: flex;
+  justify-content: flex-end;
+  color: #699AFF;
+  font-size: .373333rem;
+  margin-top: .2rem; }
+
+.login-footer--button {
+  width: 100%;
+  height: 1.266667rem;
+  line-height: 1.266667rem;
+  text-align: center;
+  font-size: .453333rem;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: .026667rem;
+  background-color: #699AFF;
+  border-radius: .64rem;
+  margin-top: 1.333333rem; }
+
+.login-footer--down {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 .4rem;
+  margin-top: .8rem; }
+
+.login-footer--down div {
+  width: .8rem;
+  height: .8rem; }
+
+.login-footer--down div img {
+  width: 100%;
+  height: 100%; }
+
+.zhuce {
+  width: 100%;
+  text-align: center;
+  margin-top: .8rem; }
+
+.zhuce a {
+  color: #699AFF;
+  font-weight: 500;
+  font-size: .426667rem;
+  text-decoration: none; }

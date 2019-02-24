@@ -1,0 +1,27 @@
+<main id="app-container">
+        
+    
+    <!-- 内容实习生列表 start -->
+    <div class="film-list">
+            {{#each films}}
+            <div class="film-list__item">
+                <div class="film-list__item-img">
+                    <img width="100%" height="100%" src="/static/images/sxs1.png" alt="">
+                </div>
+                <div class="film-list__item-info">
+                    <div class="film-list__item-title">
+                        <p>运营管理实习生</p>
+                    </div>
+                    <div class="film-list__item-city">成都/每周5天</div>
+                    <div class="film-list__item-job">萌想科技</div>
+                </div>
+                <div class="film-list__item-btn">
+                   <p class="film-list__btn film-list__btn--time">02-21-09:02</p> 
+                   <p class="film-list__btn film-list__btn--days">￥100-150/天</p> 
+                </div>
+            </div>
+            {{/each}}
+    
+        </div>
+        <!-- 内容实习生列表 end -->
+</main>
